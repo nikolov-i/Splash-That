@@ -11,7 +11,6 @@ pwd = "testingislife"
 class SplashFramework:
 
     def __init__(self):
-        self.start_page = "https://www.splashthat.com"
         self.browser = None
         self.driver_init()
         self.start_page = "https://www.splashthat.com"
