@@ -95,6 +95,7 @@ class TestCases:
         return self.st.login_test(user, pwd, True)
 
 
+"""Main body"""
 if __name__ == "__main__":
     tc = TestCases()
     if tc.test_login(user, pwd):
